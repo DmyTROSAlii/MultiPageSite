@@ -155,11 +155,13 @@ a:hover,
   position: absolute;
   width: 50%;
   height: 50%;
-  background-color: var(--primart-color);
+  background-color: var(--primary-color);
   right: -0.4rem;
   bottom: 0%;
   opacity: 0.5
 }
+
+/* navbar */
 
 .header {
   background-color: var(--black-color);
@@ -172,11 +174,11 @@ a:hover,
   object-fit: cover;
 }
 
-.header .navbar-nab .nav-link {
+.header .navbar-nav .nav-link {
   color: var(--white-color);
   font-family: var(--secondary-font);
   text-transform: uppercase;
-  font-style: 1.3rem;
+  font-size: 1.3rem;
   font-weight: 600;
   padding: 0.5rem 2rem;
   margin: 0 0.2rem;
@@ -186,7 +188,7 @@ a:hover,
   min-width: 13rem;
   padding: 1.5rem 0;
   background-color: var(--black-color);
-  border: 0.2rem solid var(--primart-color);
+  border: 0.2rem solid var(--primary-color);
 }
 
 .header .dropdown-item {
@@ -199,7 +201,7 @@ a:hover,
 }
 
 .header .dropdown-toggle::after {
-  content: '+';
+  content: "";
   border: none;
   vertical-align: middle;
   font-size: 1.6rem;
@@ -207,13 +209,13 @@ a:hover,
 
 .header .nav-item:hover > .dropdown-toggle::after,
 .header .nav-link.dropdown-toggle.show {
-  color: var(--primart-color);
+  color: var(--primary-color);
 }
 
 .header .dropdown-item:focus,
 .header .dropdown-item:hover,
 .header .navbar-nav .nav-link:hover {
-  color: var(--primart-color);
+  color: var(--primary-color);
   background-color: transparent;
 }
 
@@ -221,7 +223,7 @@ a:hover,
   display: block;
 }
 
-.header .navbar-toggle {
+.header .navbar-toggler {
   color: var(--white-color);
   font-size: 2rem;
   height: 2.7rem;
