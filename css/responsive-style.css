@@ -6,6 +6,10 @@
   .main-wrapper .black-card {
     width: 100%;
   }
+
+  .process-wrapper .process-content {
+    width: 100%;
+  }
 }
 
 @media (max-width: 991.5px) {
