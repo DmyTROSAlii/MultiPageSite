@@ -417,3 +417,62 @@ a:hover,
   border-radius: 50%;
   background-color: var(--black-color);
 }
+
+/* footer */
+
+.footer-wrapper {
+  background-color: var(--black-color);
+  padding-bottom: 0rem;
+}
+
+.footer-wrapper .footer-logo img {
+  width: 25rem;
+  height: auto;
+  object-fit: cover;
+}
+
+.footer-wrapper h5 {
+  color: var(--white-color);
+  margin-bottom: 2rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 2rem;
+}
+
+.footer-wrapper h5 a {
+  color: var(--white-color);
+}
+
+.footer-wrapper ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.footer-wrapper ul li {
+  margin-right: 1.5rem;
+}
+
+.footer-wrapper .copyright-section p {
+  margin: 0;
+  padding: 3 rem 0;
+  text-align: center;
+}
+
+/* whatsapp icon */
+
+.whatsapp-icon {
+  position: relative;
+}
+
+.whatsapp-icon .whatsapp {
+  position: fixed;
+  width: 6rem;
+  z-index: 1;
+  bottom: 1rem;
+  right: 0.5rem;
+}
+
+.whatsapp-icon .whatsapp img {
+  width: 5.5rem;
+}
