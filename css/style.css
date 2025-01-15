@@ -339,3 +339,35 @@ a:hover,
   right: -400px;
   left: unset;
 }
+
+/* process */
+
+.process-wrapper {
+  background-color: var(--black-color);
+}
+
+.process-wrapper h1,
+.work-wrapper h1 {
+  color: var(--white-color);
+}
+
+.process-wrapper .process-content {
+  padding: 4rem 6rem;
+  position: relative;
+}
+
+.process-wrapper .process-content::after {
+  position: absolute;
+  content: "";
+  width: 40%;
+  margin: auto;
+  bottom: 0;
+  border-bottom: 0.1rem solid var(--white-color);
+}
+
+.process-wrapper .process-content span {
+  color: var(--primary-color);
+  font-size: 7rem;
+  font-weight: 800;
+  margin-right: 2rem;
+}
