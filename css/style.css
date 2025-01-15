@@ -313,3 +313,29 @@ a:hover,
   background-image: url('../images/Services/seo.webp');
   height: 608px;
 }
+
+/* about css */
+
+.main-wrapper {
+  margin-top: 80vh;
+  background-color: var(--white-color);
+  width: 100%;
+}
+
+.main-wrapper .black-card {
+  position: absolute;
+  top: 25%;
+  left: -400px;
+  width: 80%;
+  box-shadow: var(--box-shadow);
+  background-color: var(--black-color);
+  padding: 2.5rem;
+  border-radius: 2.5rem;
+  text-align: left;
+  z-index: 1;
+}
+
+.main-wrapper .black-card.right {
+  right: -400px;
+  left: unset;
+}
