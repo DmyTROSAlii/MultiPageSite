@@ -13,12 +13,12 @@
 }
 
 :root {
-  --primary-color: #008AFC;
-  --secondary-color: #014EBC;
-  --light-pink-color: #FFFCF8;
-  --light-color: #CCCCCC;
+  --primary-color: #008afc;
+  --secondary-color: #014ebc;
+  --light-pink-color: #fffcf8;
+  --light-color: #cccccc;
   --black-color: #000;
-  --white-color: #FFF;
+  --white-color: #fff;
   --box-shadow: 0.1rem -0.07rem 1.5rem rgb(0 0 0 / 26%);
 
   --primary-font: "Lato", sans-serif;
@@ -121,8 +121,8 @@ a:hover,
   font-weight: 500;
   font-size: 1.5rem;
   margin-top: 1.5rem;
-  transition: all .3s linear;
-  box-shadow: 0 0.063rem 0.4rem rgba(0, 0, 0, .3);
+  transition: all 0.3s linear;
+  box-shadow: 0 0.063rem 0.4rem rgba(0, 0, 0, 0.3);
 }
 
 .main-btn:hover {
@@ -158,7 +158,7 @@ a:hover,
   background-color: var(--primary-color);
   right: -0.4rem;
   bottom: 0%;
-  opacity: 0.5
+  opacity: 0.5;
 }
 
 /* navbar */
@@ -238,6 +238,8 @@ a:hover,
   width: 100%;
 }
 
+/* banner */
+
 .banner-wrapper {
   margin-top: 8rem;
   background-image: url("../images/banner/banner.webp");
@@ -247,4 +249,67 @@ a:hover,
   width: 100%;
   height: auto;
   padding-bottom: 5rem;
+}
+
+/* parallex-effect */
+
+.parallex {
+  position: relative;
+  background-position: left;
+  background-size: 48%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: inline-block;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.parallex-1 {
+  position: relative;
+  background-position: right;
+  background-size: 48%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: inline-block;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.parallex-main {
+  position: relative;
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: inline-block;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.parallex.img1 {
+  background-image: url('../images/banner/Banner-1.jpg');
+  height: 608px;
+}
+
+.parallex.img2 {
+  background-image: url('../images/Services/web-designing.webp');
+  height: 608px;
+}
+
+.parallex.img3 {
+  background-image: url('../images/Services/branding.webp');
+  height: 608px;
+}
+
+.parallex.img4 {
+  background-image: url('../images/Services/advertising.webp');
+  height: 608px;
+}
+
+.parallex.img5 {
+  background-image: url('../images/Services/seo.webp');
+  height: 608px;
 }
