@@ -247,13 +247,13 @@ a:hover,
   background-position: center center;
   background-repeat: no-repeat;
   width: 100%;
-  height: auto;
+  height: 100vh;
   padding-bottom: 5rem;
 }
 
-/* parallex-effect */
+/* parallax-effect */
 
-.parallex {
+.parallax {
   position: relative;
   background-position: left;
   background-size: 48%;
@@ -265,7 +265,7 @@ a:hover,
   height: 100vh;
 }
 
-.parallex-1 {
+.parallax-1 {
   position: relative;
   background-position: right;
   background-size: 48%;
@@ -277,7 +277,7 @@ a:hover,
   height: 100vh;
 }
 
-.parallex-main {
+.parallax-main {
   position: relative;
   background-position: right;
   background-size: contain;
@@ -289,27 +289,27 @@ a:hover,
   height: 100vh;
 }
 
-.parallex.img1 {
+.parallax.img1 {
   background-image: url('../images/banner/Banner-1.jpg');
   height: 608px;
 }
 
-.parallex.img2 {
+.parallax.img2 {
   background-image: url('../images/Services/web-designing.webp');
   height: 608px;
 }
 
-.parallex.img3 {
+.parallax.img3 {
   background-image: url('../images/Services/branding.webp');
   height: 608px;
 }
 
-.parallex.img4 {
+.parallax.img4 {
   background-image: url('../images/Services/advertising.webp');
   height: 608px;
 }
 
-.parallex.img5 {
+.parallax.img5 {
   background-image: url('../images/Services/seo.webp');
   height: 608px;
 }
