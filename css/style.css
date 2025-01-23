@@ -291,7 +291,7 @@ a:hover,
 
 .parallax.img1 {
   background-image: url('../images/banner/Banner-1.jpg');
-  height: 608px;
+  height: auto;
 }
 
 .parallax.img2 {
@@ -516,4 +516,19 @@ a:hover,
 .about .team-wrapper .card .team-detail p {
   color: var(--black-color);
   margin: 0;
+}
+
+/* portfolio */
+
+.portfolio-services .card-detail {
+  box-shadow: var(--box-shadow);
+  background-color: var(--black-color);
+  border-radius: 2rem;
+  padding: 3rem;
+  margin-top: -2rem;
+}
+
+.portfolio-services .card-detail h5 {
+  font-weight: 800;
+  font-family: var(--second-font);
 }
