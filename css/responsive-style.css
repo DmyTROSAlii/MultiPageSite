@@ -103,9 +103,25 @@
     margin-top: 35vh;
   }
 
+  .footer-wrapper .container .row {
+    text-align: center;
+  }
+
+  .footer-wrapper .container .row .footer-logo {
+    margin-bottom: 3rem;
+  }
+
+  .footer-wrapper .container .row ul {
+    justify-content: center;
+  }
+
   .link-widget a img {
     width: 30px;
     height: 30px;
+  }
+
+  .portfolio-services .last-element {
+    margin-top: 8rem;
   }
 
   .contact .get-in-touch .card {
