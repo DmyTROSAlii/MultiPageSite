@@ -10,6 +10,14 @@
   .process-wrapper .process-content {
     width: 100%;
   }
+
+  .form-section {
+    padding: 4rem 1rem;
+  }
+
+  .contact .get-in-touch .card {
+    padding: 2rem 1rem;
+  }
 }
 
 @media (max-width: 991.5px) {
@@ -38,6 +46,10 @@
 
   .parallax-main {
     background-size: cover;
+  }
+
+  .contact .get-in-touch .card {
+    min-height: 350px;
   }
 }
 
@@ -68,6 +80,10 @@
   .parallax-1 {
     background-size: cover;
   }
+
+  .contact .get-in-touch .card {
+    min-height: 310px;
+  }
 }
 
 @media (max-width: 590px) {
@@ -90,6 +106,10 @@
   .link-widget a img {
     width: 30px;
     height: 30px;
+  }
+
+  .contact .get-in-touch .card {
+    min-height: 254px;
   }
 }
 
