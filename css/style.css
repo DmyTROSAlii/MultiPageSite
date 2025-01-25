@@ -532,3 +532,59 @@ a:hover,
   font-weight: 800;
   font-family: var(--second-font);
 }
+
+/* contact */
+
+.contact .get-in-touch .card {
+  background-color: var(--white-color);
+  min-height: 26rem;
+  padding: 3rem;
+  margin-top: 7rem;
+  border-radius: 2rem;
+  box-shadow: var(--box-shadow);
+  text-align: center;
+}
+
+.contact .card i {
+  font-size: 8rem;
+  margin-bottom: 3rem;
+}
+
+.contact .card h4 {
+  font-weight: 800;
+}
+
+.contact .card p {
+  color: var(--black-color);
+}
+
+.contact .card p:last-child {
+  font-family: var(--second-color);
+  font-weight: 700;
+}
+
+/* form */
+
+.font-section {
+  padding: 10rem;
+  background-color: var(--black-color);
+  box-shadow: var(--box-shadow);
+  border-radius: 2rem;
+}
+
+.font-section .form-control:focus {
+  box-shadow: none;
+  border-color: var(--light-color);
+}
+
+.font-section .footer-control {
+  height: 4.5rem;
+  border: 0.1rem solid var(--light-color);
+  font-size: 1.5rem;
+}
+
+.form-section textarea {
+  border: 0.1rem solid var(--light-color);
+  font-size: 1.5rem;
+  min-height: 20rem;
+}
