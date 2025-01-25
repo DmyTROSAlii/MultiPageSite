@@ -565,19 +565,19 @@ a:hover,
 
 /* form */
 
-.font-section {
+.form-section {
   padding: 10rem;
   background-color: var(--black-color);
   box-shadow: var(--box-shadow);
   border-radius: 2rem;
 }
 
-.font-section .form-control:focus {
+.form-section .form-control:focus {
   box-shadow: none;
   border-color: var(--light-color);
 }
 
-.font-section .footer-control {
+.form-section .footer-control {
   height: 4.5rem;
   border: 0.1rem solid var(--light-color);
   font-size: 1.5rem;
